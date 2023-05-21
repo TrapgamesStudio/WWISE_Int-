@@ -54,11 +54,11 @@ sysinfo.txt
 ## ---------------- ##
 
 # project stuff
-WWiseProject/.cache/
-WWiseProject/*.prof
-WwiseProject/*_WwiseProject.*.validationcache
-WwiseProject/*_WwiseProject.*.wsettings
-WwiseProject/**/*.akd
+WWISE_Inté_WwiseProject/.cache/
+WWISE_Inté_WwiseProject/*.prof
+WWISE_Inté_WwiseProject/*_WwiseProject.*.validationcache
+WWISE_Inté_WwiseProject/*_WwiseProject.*.wsettings
+WWISE_Inté_WwiseProject/**/*.akd
 
 # build stuff (unsure?)
 # Assets/Wwise/Deployment/Plugins/Windows/**/*.meta
