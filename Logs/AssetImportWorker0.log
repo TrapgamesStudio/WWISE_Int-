@@ -167,3 +167,39 @@ Received Import Request.
   path: Assets/Wwise
   artifactKey: Guid(f033f91430b3b4f4a9ccf68de9f30e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Wwise using Guid(f033f91430b3b4f4a9ccf68de9f30e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b636564d0629940c11e6f0cc49143402') in 0.011622 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 432.398352 seconds.
+  path: Assets/Wwise/API
+  artifactKey: Guid(8a191976159740c488f29aa0a477c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/API using Guid(8a191976159740c488f29aa0a477c5c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51584fa8f82989f9b475ed35dbecc327') in 0.007090 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.146413 seconds.
+  path: Assets/Wwise/ScriptableObjects
+  artifactKey: Guid(db7e9635819141c448c454c1f046c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects using Guid(db7e9635819141c448c454c1f046c42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad62bfb5b47346c975902b49f727f2d') in 0.006155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.118753 seconds.
+  path: Assets/Wwise/ScriptableObjects/AkWwiseInitializationSettings.asset
+  artifactKey: Guid(dba63078da933b14398251d39328245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/AkWwiseInitializationSettings.asset using Guid(dba63078da933b14398251d39328245c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62530e212661bcb767bab93020903380') in 0.037676 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Wwise/ScriptableObjects/Windows.asset
+  artifactKey: Guid(d49142da1fe736e46900a898d1c1093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Windows.asset using Guid(d49142da1fe736e46900a898d1c1093a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb31a91dd46ff46a59df6110c9d21460') in 0.007051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.420653 seconds.
+  path: Assets/Wwise/Editor
+  artifactKey: Guid(0c3780ff89e16cb4dab8b773bf965aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Editor using Guid(0c3780ff89e16cb4dab8b773bf965aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc02d4363073ef548fb8ac2b45cb4c42') in 0.007484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.357293 seconds.
+  path: Assets/Wwise/Gizmos
+  artifactKey: Guid(f6e033ef064e90e409cb5c22d58ca232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/Gizmos using Guid(f6e033ef064e90e409cb5c22d58ca232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba1aae97b41d0e17fc2cf4a38ccf1914') in 0.006692 seconds 

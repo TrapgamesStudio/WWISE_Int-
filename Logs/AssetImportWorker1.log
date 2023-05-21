@@ -167,3 +167,9 @@ Received Import Request.
   path: Assets/TutorialInfo
   artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94fb6c6bacde1da6d0b7d43ec8d6e3b7') in 0.012982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 434.690805 seconds.
+  path: Assets/Wwise/ScriptableObjects/Mac.asset
+  artifactKey: Guid(d5e68c714c805b24c99117966613b1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wwise/ScriptableObjects/Mac.asset using Guid(d5e68c714c805b24c99117966613b1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf0306d725c033080f4a142b12e1494') in 0.036716 seconds 
