@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C765D1F7-F204-4F43-8286-B03A55208275}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{C765D1F7-F204-4F43-8286-B03A55208275}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C765D1F7-F204-4F43-8286-B03A55208275}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SD" ID="{41D59F8B-66B0-4DBF-BB04-5900A05AF87B}" ShortID="965765296">
+					<ChildrenList>
+						<Folder Name="TESTS" ID="{51C93058-3DE2-4F90-BBA1-BEC5F75A22A7}" ShortID="115141852">
+							<ChildrenList>
+								<Sound Name="BIP_TEST_OS_3D" ID="{8C165799-D957-49D0-A8A6-18103D082553}" ShortID="546853666">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Att_30m" ID="{422E5ABF-DFEE-4050-9C48-61970D827845}" WorkUnitID="{243099E3-07F7-4E90-9AF4-38821CC27195}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{517814EC-122F-40FE-BEA6-4E9FB732FB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{774C086C-5699-40FD-BC8C-7FE8B38B4727}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BIP_TEST_OS" ID="{45CC0194-60F4-4BBE-8670-D94B685347FD}">
+											<Language>SFX</Language>
+											<AudioFile>BIP_TEST_OS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302295653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BIP_TEST_OS" ID="{45CC0194-60F4-4BBE-8670-D94B685347FD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="BIP_TEST_OS_2D" ID="{C7F90C91-8B84-4B66-AEAB-9551FD0C3957}" ShortID="383683170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{517814EC-122F-40FE-BEA6-4E9FB732FB71}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{774C086C-5699-40FD-BC8C-7FE8B38B4727}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="BIP_TEST_OS" ID="{57281568-085B-42D7-87DD-C6818DE2925D}">
+											<Language>SFX</Language>
+											<AudioFile>BIP_TEST_OS.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="302295653"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="BIP_TEST_OS" ID="{57281568-085B-42D7-87DD-C6818DE2925D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

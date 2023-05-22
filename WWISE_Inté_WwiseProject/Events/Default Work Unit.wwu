@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E6D2CFA7-5504-4DA2-A8A9-C89ECD7ED9CD}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{E6D2CFA7-5504-4DA2-A8A9-C89ECD7ED9CD}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E6D2CFA7-5504-4DA2-A8A9-C89ECD7ED9CD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_BIP_TEST_OS_3D" ID="{745F1FB2-0D89-4DCA-8FF0-9C8C64AE65C7}">
+					<ChildrenList>
+						<Action Name="" ID="{C1FCC08B-9D67-41B5-A001-416D0FC67452}" ShortID="103714887">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BIP_TEST_OS_3D" ID="{8C165799-D957-49D0-A8A6-18103D082553}" WorkUnitID="{C765D1F7-F204-4F43-8286-B03A55208275}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_BIP_TEST_OS_2D" ID="{C92D0566-32AC-4C91-A8DB-EC41C8F0C4FD}">
+					<ChildrenList>
+						<Action Name="" ID="{7AD651D7-B7A2-43C8-9A94-C8D2C91C4AB1}" ShortID="567400237">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="BIP_TEST_OS_2D" ID="{C7F90C91-8B84-4B66-AEAB-9551FD0C3957}" WorkUnitID="{C765D1F7-F204-4F43-8286-B03A55208275}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
