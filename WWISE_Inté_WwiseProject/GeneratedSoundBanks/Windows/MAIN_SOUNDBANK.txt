@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2835504592	Play_BIP_TEST_OS_2D			\Default Work Unit\Play_BIP_TEST_OS_2D	
+	2852282147	Play_BIP_TEST_OS_3D			\Default Work Unit\Play_BIP_TEST_OS_3D	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	302295653	BIP_TEST_OS_2D	C:\WWISE_Int-\WWISE_Inté_WwiseProject\.cache\Windows\SFX\BIP_TEST_OS_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SD\TESTS\BIP_TEST_OS_2D		480096
+

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="144">
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Mac/</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{906F145D-8EC4-98DD-8896-A13B6757E8AB}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{F56A610C-C7C4-F874-B68B-7ADDF94EBB7A}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,10 +22,28 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{4369D17E-F804-A7E9-0CB0-361BDD73967D}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{ED2249D6-9696-BC8A-A2B7-A1E06EB27335}">
 			<ShortName>MAIN_SOUNDBANK</ShortName>
 			<Path>MAIN_SOUNDBANK.bnk</Path>
+			<Media>
+				<File Id="302295653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BIP_TEST_OS.wav</ShortName>
+					<CachePath>SFX/BIP_TEST_OS_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2835504592" Name="Play_BIP_TEST_OS_2D" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="302295653"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2852282147" Name="Play_BIP_TEST_OS_3D" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="302295653"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9EE6B639-1803-A627-1E03-649DECC79518}</FileHash>
+	<FileHash>{DAC4F652-4773-0A54-1A3B-DDC22911468A}</FileHash>
 </SoundBanksInfo>

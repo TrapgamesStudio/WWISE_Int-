@@ -4,7 +4,10 @@
 		<WorkUnit Name="Default Work Unit" ID="{C7DE6FD4-33B3-43E3-9F7C-C6A082FE2BB1}" PersistMode="Standalone">
 			<ChildrenList>
 				<SoundBank Name="MAIN_SOUNDBANK" ID="{66C7AE53-70CF-431B-8C98-FDC74E4B00F5}">
-					<ObjectInclusionList/>
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_BIP_TEST_OS_2D" ID="{C92D0566-32AC-4C91-A8DB-EC41C8F0C4FD}" WorkUnitID="{E6D2CFA7-5504-4DA2-A8A9-C89ECD7ED9CD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_BIP_TEST_OS_3D" ID="{745F1FB2-0D89-4DCA-8FF0-9C8C64AE65C7}" WorkUnitID="{E6D2CFA7-5504-4DA2-A8A9-C89ECD7ED9CD}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>

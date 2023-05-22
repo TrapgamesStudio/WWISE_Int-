@@ -2,7 +2,7 @@
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows/</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
@@ -22,10 +22,28 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{1CDD4BCB-844F-134C-500B-F77E425889C3}">
+		<SoundBank Id="2228651116" Type="User" Language="SFX" Hash="{ED2249D6-9696-BC8A-A2B7-A1E06EB27335}">
 			<ShortName>MAIN_SOUNDBANK</ShortName>
 			<Path>MAIN_SOUNDBANK.bnk</Path>
+			<Media>
+				<File Id="302295653" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>BIP_TEST_OS.wav</ShortName>
+					<CachePath>SFX/BIP_TEST_OS_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2835504592" Name="Play_BIP_TEST_OS_2D" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="302295653"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2852282147" Name="Play_BIP_TEST_OS_3D" MaxAttenuation="30" DurationType="OneShot" DurationMin="2.5" DurationMax="2.5">
+					<MediaRefs>
+						<MediaRef Id="302295653"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{908712FD-4F16-1188-F2F7-78973C51C7F6}</FileHash>
+	<FileHash>{A65B760B-B27F-D727-89C9-ABB863231E8D}</FileHash>
 </SoundBanksInfo>
